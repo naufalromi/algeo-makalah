@@ -4,6 +4,14 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -388,7 +396,7 @@ The graph demonstrates that this algebraic approximation is sufficient for high-
 Experiment 4 confirms that the system is not limited to simple integer operations (doubling or halving). The successful generation of the 528 Hz tone proves that the Linear Interpolation method effectively bridges the gap between discrete digital samples and continuous mathematical transformations, allowing for precise musical tuning.
 
 \section{Conclusion}
-This study successfully demonstrated the application of Linear Algebra principles to the domain of Digital Signal Processing, specifically for the purpose of audio pitch shifting. By treating audio signals as vectors in a high-dimensional space ($\mathbb{R}^N$ and $\mathbb{C}^N$), we were able to manipulate their fundamental properties through coordinate mapping and basis transformation.
+This paper demonstrated the application of Linear Algebra principles to the domain of Digital Signal Processing, specifically for the purpose of audio pitch shifting. By treating audio signals as vectors in a high-dimensional space ($\mathbb{R}^N$ and $\mathbb{C}^N$), we were able to manipulate their fundamental properties through coordinate mapping and basis transformation.
 
 The experimental results confirmed the efficacy of the implemented algorithm across four distinct test cases:
 \begin{itemize}
@@ -411,7 +419,7 @@ J. O. Smith III, \textit{Spectral Audio Signal Processing}. Stanford, CA: W3K Pu
 \bibitem{b3}
 M. Müller, \textit{Fundamentals of Music Processing: Audio, Analysis, Algorithms, Applications}. Cham, Switzerland: Springer, 2015.
 \bibitem{b4}
-M. Dolson, ``The Phase Vocoder: A Tutorial,'' \textit{Computer Music Journal}, vol. 10, no. 4, pp. 14--27, 1986.
+M. Dolson, The Phase Vocoder: A Tutorial, \textit{Computer Music Journal}, vol. 10, no. 4, pp. 14--27, 1986.
 \end{thebibliography}
 
 \section*{Pernyataan}
@@ -420,11 +428,15 @@ M. Dolson, ``The Phase Vocoder: A Tutorial,'' \textit{Computer Music Journal}, v
 \vspace{0.5cm}
 \begin{center}
     Bandung, 24 Desember 2025 \\[0.5cm] 
-    \includegraphics[width=3cm]{interpolation.png} \\[0.2cm] 
+    \includegraphics[width=3cm]{signature.png} \\[0.2cm] 
     Muhammad Naufal Romi Annafi \\
     13524058
 \end{center}
 
 \section*{Attachment}
+The full source code, experimental scripts, and high-resolution figures for this project are available in the GitHub repository:
+\begin{center}
+    \url{https://github.com/naufalromi/algeo-makalah.git}
+\end{center}
 
 \end{document}
