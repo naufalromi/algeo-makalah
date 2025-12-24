@@ -1,6 +1,6 @@
-__pycache__/
-*.pyc
-*.aux
-*.log
-*.out
-.DS_Store
+*
+!.gitignore
+!13524058_Muhammad Naufal Romi Annafi_Makalah Algeo.tex
+!13524058_Muhammad Naufal Romi Annafi_Makalah Algeo.pdf
+!README.md
+!synthesis.py
